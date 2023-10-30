@@ -117,7 +117,12 @@ To read more about what `A`, `B`, `C`, `weights`, `projections` represent, you c
 
 ## Citation
 ```
-coming soon
+@article{zhao-etal-2023-joint,
+  title={A Joint Matrix Factorization Analysis of Multilingual Representations},
+  author={Zhao, Zheng and Ziser, Yftah and Webber, Bonnie and Cohen, Shay B},
+  journal={arXiv preprint arXiv:2310.15513},
+  year={2023}
+}
 ```
 
 
