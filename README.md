@@ -122,11 +122,23 @@ To read more about what `A`, `B`, `C`, `weights`, `projections` represent, you c
 
 ## Citation
 ```
-@article{zhao-etal-2023-joint,
-  title={A Joint Matrix Factorization Analysis of Multilingual Representations},
-  author={Zhao, Zheng and Ziser, Yftah and Webber, Bonnie and Cohen, Shay B},
-  journal={arXiv preprint arXiv:2310.15513},
-  year={2023}
+@inproceedings{zhao-etal-2023-joint,
+    title = "A Joint Matrix Factorization Analysis of Multilingual Representations",
+    author = "Zhao, Zheng  and
+      Ziser, Yftah  and
+      Webber, Bonnie  and
+      Cohen, Shay",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.851",
+    doi = "10.18653/v1/2023.findings-emnlp.851",
+    pages = "12764--12783",
 }
 ```
 
