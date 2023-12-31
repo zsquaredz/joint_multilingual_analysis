@@ -3,6 +3,7 @@
 LOG_DIR="./log/"
 OUTPUT_DIR="./out"
 LANG='en'
+export PYTHONPATH="./"
 
 torchrun --rdzv_backend=c10d --rdzv_endpoint=localhost:0 --nnodes=1 --nproc_per_node=4 \
     src/train/train_distributed_monolingual.py \

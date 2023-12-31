@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+HOME_DIR=~/
 # SPLIT=00  # Presplitted for parallel processing
 # note that Chinese need special treatment by passing in the flag --chinese
 

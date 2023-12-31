@@ -1,5 +1,5 @@
 CONVERSION_SCRIPT_DIR=../ud-compatibility/ud-compatibility/
-UD_FOLDER=./mophosyntactic_features/data/ud/ud-treebanks-v2.1/
+UD_FOLDER=../../joint_multilingual_analysis/morphosyntactic_features/data/ud/ud-treebanks-v2.1/
 
 UD_LANGUAGE_PATTERN="\/([a-z]*)(_[a-zA-Z_]*)*-ud-[a-z\-]*\.conllu"
 

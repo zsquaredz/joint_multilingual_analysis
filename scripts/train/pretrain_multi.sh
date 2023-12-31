@@ -2,6 +2,7 @@
 
 LOG_DIR="./log/"
 OUTPUT_DIR="./out"
+export PYTHONPATH="./"
 
 # All-33
 torchrun --standalone --nnodes=1 --nproc_per_node=4 \
