@@ -20,6 +20,10 @@ We use CoNLL’s 2017 Wikipedia dump for pretraining our models. To obtain the d
    wget https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1989/English-annotated-conll17.tar
    ``` 
    and change "English" for other languages.
+   Then extract the .tar file: 
+   ```
+   tar -xvf English-annotated-conll17.tar
+   ```
 2. Preprocess by obtaining the raw text by running 
    ```
    ./scripts/preprocess.sh
@@ -43,8 +47,9 @@ We use CoNLL’s 2017 Wikipedia dump for pretraining our models. To obtain the d
 
 ## Getting Morphosyntactic Features
 We use treebanks from UD 2.1 which contain sentences annotated with morphosyntactic information. To obtain the data, see instructions adopted from [Stanczak et al. (2022)](https://github.com/copenlu/multilingual-typology-probing). 
-1. Download [UD 2.1 treebanks](https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-2515/ud-treebanks-v2.1.tgz?sequence=4&isAllowed=y) and put them in `morphosyntactic_features/data/ud/ud-treebanks-v2.1`
-2. Clone the [modified UD converter](https://github.com/unimorph/ud-compatibility) to this repo's parent folder and then convert the treebank annotations to the UniMorph schema using the following script:
+1. Download [UD 2.1 treebanks](https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-2515/ud-treebanks-v2.1.tgz?sequence=4&isAllowed=y) and extract the .tgz file:
+`tar -xvzf ud-treebanks-v2.1.tgz`. Then put them in `morphosyntactic_features/data/ud/ud-treebanks-v2.1`
+2. Clone the [modified UD converter](https://github.com/unimorph/ud-compatibility) to this repo's parent folder (e.g. if this repo's path is `/path/to/parent/folder/joint_multilingual_analysis/` then the UD converter repo should be cloned under `/path/to/parent/folder/`). You can then convert the treebank annotations to the UniMorph schema using the following script:
    ```
    ./morphosyntactic_features/scripts/ud_to_um.sh
    ```
