@@ -1,5 +1,7 @@
 # A Joint Matrix Factorization Analysis of Multilingual Representations
-This repository contains code for the paper "[Understanding Domain Learning in Language Models Through Subpopulation Analysis](https://arxiv.org/pdf/2310.15513.pdf)".
+This repository contains code for the paper "[Understanding Domain Learning in Language Models Through Subpopulation Analysis](https://aclanthology.org/2023.findings-emnlp.851.pdf)".
+
+![PARAFAC2](./parafac2.png)
 
 ## Creating Conda Environment
 The following instructions will assume that conda is already installed on your system.
