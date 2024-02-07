@@ -1,7 +1,10 @@
+<p align="center" width="100%">
+<img src="./parafac2.png" alt="PARAFAC2" style="width: 100%; min-width: 300px; display: block; margin: auto;">
+</p>
+
 # A Joint Matrix Factorization Analysis of Multilingual Representations
 This repository contains code for the paper "[Understanding Domain Learning in Language Models Through Subpopulation Analysis](https://aclanthology.org/2023.findings-emnlp.851.pdf)".
 
-![PARAFAC2](./parafac2.png)
 
 ## Creating Conda Environment
 The following instructions will assume that conda is already installed on your system.
